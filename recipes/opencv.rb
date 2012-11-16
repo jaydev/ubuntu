@@ -94,5 +94,4 @@ end
 execute "clean up opencv build files" do
   command "rm -rf #{opencv_dir} #{opencv_dir}.tar.bz2"
   cwd home_dir
-  not_if "python -c 'import cv'"
 end
