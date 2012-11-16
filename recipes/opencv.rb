@@ -1,3 +1,6 @@
+# Detailed instructions:
+# http://www.samontab.com/web/2012/06/installing-opencv-2-4-1-ubuntu-12-04-lts/
+# http://www.ozbotz.org/opencv-installation/
 opencv_version = "2.4.1"
 home_dir = "/home/vagrant"
 opencv_dir = "#{home_dir}/OpenCV-#{opencv_version}"
